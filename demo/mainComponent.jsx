@@ -26,7 +26,18 @@ const MainComponent = React.createClass({
         <AdSense.Google client='ca-pub-7292810486004926'
                         slot='7806394673' />
 
-        <h2> 4. full-config Demo </h2>
+        
+                
+        <h2> 4. In-Feed Ads</h2>
+        <AdSense.Google 
+          client='ca-pub-8999025630731964'
+          slot='8312488574'
+          format='fluid'
+          layoutKey='-8h+1u-dq+eb+ga'
+          style={{ display: 'block', width: 300 }}
+        />
+
+        <h2> 5. full-config Demo </h2>
         <AdSense.Google client='ca-pub-7292810486004926'
                         slot='7806394673'
                         style={{width: 500, height: 300, float: 'left'}}
@@ -35,6 +46,7 @@ const MainComponent = React.createClass({
                         slot='7806394673'
                         style={{width: 500, height: 300, float: 'left'}}
                         format='' />
+
       </div>
     );
   }
